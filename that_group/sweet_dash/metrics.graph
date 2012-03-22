@@ -1,0 +1,6 @@
+title   "Metrics Collected"
+area    :all
+
+field :load, :color => "green",
+             :alias => "Metrics Collected",
+             :data  => "integral(carbon.agents.*.metricsReceived)"

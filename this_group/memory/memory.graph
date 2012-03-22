@@ -1,0 +1,10 @@
+title       "Combined Memory Usage (stacked)"
+vtitle      "percent"
+area        :stacked
+description "The combined memory usage for this demo server."
+
+# Look ma! Ruby!
+%w(active free inactive).each do |name|
+    field name.to_sym, :alias => name.capitalize,
+                       :data  => "movingAverage(memory.#{name}, 10)"
+end

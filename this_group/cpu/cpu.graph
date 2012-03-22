@@ -1,4 +1,4 @@
-title       "Combined CPU Usage"
+title       "Combined CPU Usage (stacked)"
 vtitle      "percent"
 area        :stacked
 description "The combined CPU usage for this demo server."

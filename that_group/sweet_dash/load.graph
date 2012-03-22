@@ -1,6 +1,0 @@
-title   "Load Average"
-area    :all
-
-field :load, :color => "green",
-             :alias => "Load",
-             :data  => "system.load"
