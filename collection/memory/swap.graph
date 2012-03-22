@@ -2,8 +2,8 @@ title   "Swap"
 
 field :in, :color => "green",
            :alias => "In",
-           :data  => "swap.in"
+           :data  => "keepLastValue(swap.in)"
 
 field :out, :color => "blue",
             :alias => "Out",
-            :data  => "scale(swap.out, -1)"
+            :data  => "keepLastValue(scale(swap.out, -1))"
