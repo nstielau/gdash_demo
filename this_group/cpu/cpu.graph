@@ -1,0 +1,11 @@
+title       "Combined CPU Usage"
+vtitle      "percent"
+area        :stacked
+description "The combined CPU usage for this demo server."
+
+# Look ma! Ruby!
+%w(system idle user waiting).each do |name|
+    field name.to_sym, :color => "yellow",
+                       :alias => name.capitalize,
+                       :data  => "cpu.#{name}"
+end
