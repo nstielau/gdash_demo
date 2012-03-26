@@ -1,0 +1,19 @@
+title       "Random Example Two"
+vtitle      "units"
+description "A graph example using random data."
+
+field :a, :alias => "Red",
+          :color => "red",
+          :data  => "random.a"
+
+field :b, :alias => "Yellow",
+          :color => "yellow",
+          :data  => "random.b"
+
+field :c, :alias => "Blue",
+          :color => "blue",
+          :data  => "random.c"
+
+field :d, :alias => "Green",
+          :color => "green",
+          :data  => "random.d"          

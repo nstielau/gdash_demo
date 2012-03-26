@@ -1,0 +1,19 @@
+title       "Random Example Three"
+vtitle      "units"
+description "A graph example using random data."
+
+field :a, :alias => "Red",
+          :color => "red",
+          :data  => "movingAverage(random.a, 10)"
+
+field :b, :alias => "Yellow",
+          :color => "yellow",
+          :data  => "movingAverage(random.b)"
+
+field :c, :alias => "Blue",
+          :color => "blue",
+          :data  => "movingAverage(random.c, 10)"
+
+field :d, :alias => "Green",
+          :color => "green",
+          :data  => "movingAverage(random.d, 10)"          
