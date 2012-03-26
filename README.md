@@ -2,7 +2,9 @@
 
 ## What
 Gdash (https://github.com/ripienaar/gdash) is a dashboard UI for displaying 
-graphite dashboards.
+Graphite (http://graphite.wikidot.com/) dashboards.  It's Sinatra-based, 
+config-management friendly, and a great way to create wallboards and simple,
+drill-down dashboards.
 
 ## Where
 Check out the demo Gdash install at http://gdash.nickstielau.com/
